@@ -32,6 +32,18 @@ swipl ejercicios-uag-ryr-del-conocimiento/ejercicio2.pl
 ?- padre(juan, X).
 ```
 
+### ejercicio3.pl — Generación de pares con rangos
+
+Define el predicado `p(M, N)` donde `N` está en el rango `1..4` y cumple `N = 2*M`. Explora el uso de rangos numéricos para generar soluciones.
+
+```bash
+swipl ejercicios-uag-ryr-del-conocimiento/ejercicio3.pl
+```
+
+```prolog
+?- p(M, N).
+```
+
 # Prolog Tests
 
 Colección de ejercicios y ejemplos en Prolog.
