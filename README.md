@@ -19,6 +19,19 @@ swipl ejercicios-uag-ryr-del-conocimiento/ejercicio1.pl
 ?- clima(monterrey, X).
 ```
 
+### ejercicio2.pl — Relaciones padre e hijo
+
+Define una familia de tres generaciones (ana, juan, karina, dany) y deduce la relación `hijo/2` a partir de los hechos `padre/2`.
+
+```bash
+swipl ejercicios-uag-ryr-del-conocimiento/ejercicio2.pl
+```
+
+```prolog
+?- hijo(karina, X).
+?- padre(juan, X).
+```
+
 # Prolog Tests
 
 Colección de ejercicios y ejemplos en Prolog.
