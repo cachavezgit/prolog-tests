@@ -44,6 +44,30 @@ swipl ejercicios-uag-ryr-del-conocimiento/ejercicio3.pl
 ?- p(M, N).
 ```
 
+### ejercicio4.pl — Potencias de -1
+
+Genera pares `(N, M)` donde `N` va de `0` a `4` y `M = (-1)^N`, produciendo la secuencia alternada `1, -1, 1, -1, 1`.
+
+```bash
+swipl ejercicios-uag-ryr-del-conocimiento/ejercicio4.pl
+```
+
+```prolog
+?- p(N, M).
+```
+
+### ejercicio5.pl — Fórmula cuadrática N²+N+41
+
+Genera pares `(N, M)` donde `N` va de `0` a `10` y `M = N²+N+41`, una fórmula clásica que produce números primos para valores pequeños de N.
+
+```bash
+swipl ejercicios-uag-ryr-del-conocimiento/ejercicio5.pl
+```
+
+```prolog
+?- p(N, M).
+```
+
 # Prolog Tests
 
 Colección de ejercicios y ejemplos en Prolog.
