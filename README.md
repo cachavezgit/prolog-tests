@@ -68,6 +68,26 @@ swipl ejercicios-uag-ryr-del-conocimiento/ejercicio5.pl
 ?- p(N, M).
 ```
 
+### ejercicio6.pl — Relaciones padre y madre (ASP)
+
+Define la relación `parent/2` a partir de `father/2` y `mother/2`. Usa sintaxis de Answer Set Programming con `#show`.
+
+> Requiere `clingo`, no `swipl`. Instalación en macOS: `brew install clingo`
+
+```bash
+clingo ejercicios-uag-ryr-del-conocimiento/ejercicio6.pl
+```
+
+### ejercicio7.pl — Números primos con ASP
+
+Determina los números primos del 2 al 20 descartando los compuestos. Usa `#const` y `not` para razonamiento por defecto.
+
+> Requiere `clingo`, no `swipl`.
+
+```bash
+clingo ejercicios-uag-ryr-del-conocimiento/ejercicio7.pl
+```
+
 # Prolog Tests
 
 Colección de ejercicios y ejemplos en Prolog.
