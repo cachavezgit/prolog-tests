@@ -138,6 +138,26 @@ Combina una regla de elección `{p(a); q(b)}` con una restricción de integridad
 clingo ejercicios-uag-ryr-del-conocimiento/ejercicio10b.pl
 ```
 
+### ejercicio11a.pl — Filtrado de pares con restricción de integridad en ASP
+
+Genera subconjuntos de `{1..10}` mediante una regla de elección y descarta con `:- p(2*X)` todo modelo que contenga algún número par. El resultado son únicamente subconjuntos formados por números impares del rango.
+
+> Requiere `clingo`, no `swipl`.
+
+```bash
+clingo ejercicios-uag-ryr-del-conocimiento/ejercicio11a.pl
+```
+
+### ejercicio11b.pl — Negación por defecto sobre predicados con aridad mixta en ASP
+
+Define el hecho `p(1,1)` y deriva `q(X)` para `X` en `{1, 2}` cuando no existe ningún par `p(X, _)`. Como `p(1,1)` existe, `q(1)` no se infiere; al no haber ningún `p(2,_)`, sí se infiere `q(2)`. Ilustra el uso de `not` con predicados de distinta aridad.
+
+> Requiere `clingo`, no `swipl`.
+
+```bash
+clingo ejercicios-uag-ryr-del-conocimiento/ejercicio11b.pl
+```
+
 # Prolog Tests
 
 Colección de ejercicios y ejemplos en Prolog.
