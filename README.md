@@ -118,6 +118,26 @@ Usa una regla de cardinalidad exacta para seleccionar exactamente 3 candidatos d
 clingo ejercicios-uag-ryr-del-conocimiento/ejercicio9b.pl
 ```
 
+### ejercicio10a.pl — Restricciones de cardinalidad exacta en ASP
+
+Demuestra el uso de restricciones de cardinalidad exacta (`= 1`) sobre conjuntos de átomos. Las reglas `{p; q} = 1` y `{q; r} = 1` exigen que exactamente uno de cada par sea verdadero, generando los modelos estables que satisfacen ambas condiciones simultáneamente.
+
+> Requiere `clingo`, no `swipl`.
+
+```bash
+clingo ejercicios-uag-ryr-del-conocimiento/ejercicio10a.pl
+```
+
+### ejercicio10b.pl — Reglas de integridad con restricción negativa en ASP
+
+Combina una regla de elección `{p(a); q(b)}` con una restricción de integridad `:- not p(a), not q(b)`. Esto garantiza que al menos uno de los dos átomos sea verdadero en todo modelo estable, descartando el modelo vacío.
+
+> Requiere `clingo`, no `swipl`.
+
+```bash
+clingo ejercicios-uag-ryr-del-conocimiento/ejercicio10b.pl
+```
+
 # Prolog Tests
 
 Colección de ejercicios y ejemplos en Prolog.
