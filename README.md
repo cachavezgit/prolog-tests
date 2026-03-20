@@ -158,6 +158,16 @@ Define el hecho `p(1,1)` y deriva `q(X)` para `X` en `{1, 2}` cuando no existe n
 clingo ejercicios-uag-ryr-del-conocimiento/ejercicio11b.pl
 ```
 
+### gato.pl — Tic Tac Toe con ASP
+
+Implementa la lógica de un tablero de Gato (Tic Tac Toe) 3×3 en ASP. Define un estado de partida fijo en `celda/3` y determina el ganador evaluando filas, columnas y diagonales. Si ningún jugador gana, infiere `empate` mediante negación por defecto.
+
+> Requiere `clingo`, no `swipl`.
+
+```bash
+clingo ejercicios-uag-ryr-del-conocimiento/gato.pl
+```
+
 # Prolog Tests
 
 Colección de ejercicios y ejemplos en Prolog.
