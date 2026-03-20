@@ -1,0 +1,1 @@
+3 {elected(ann; bob; carol; dan; elaine; fred)} 3.

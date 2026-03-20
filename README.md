@@ -88,6 +88,36 @@ Determina los números primos del 2 al 20 descartando los compuestos. Usa `#cons
 clingo ejercicios-uag-ryr-del-conocimiento/ejercicio7.pl
 ```
 
+### ejercicio8.pl — Factorial con ASP
+
+Calcula los factoriales de 0 a 5 usando una regla recursiva en ASP. Define `fac/2` con caso base `fac(0,1)` y caso inductivo, luego expone los resultados con `fac/1`.
+
+> Requiere `clingo`, no `swipl`.
+
+```bash
+clingo ejercicios-uag-ryr-del-conocimiento/ejercicio8.pl
+```
+
+### ejercicio9a.pl — Regla de elección en ASP
+
+Ilustra el uso de reglas de elección (`choice rules`) en ASP. La regla `1 {p(1..10)}.` genera todos los subconjuntos de `{1..10}` que contienen al menos un elemento.
+
+> Requiere `clingo`, no `swipl`.
+
+```bash
+clingo ejercicios-uag-ryr-del-conocimiento/ejercicio9a.pl
+```
+
+### ejercicio9b.pl — Elección exacta de candidatos con ASP
+
+Usa una regla de cardinalidad exacta para seleccionar exactamente 3 candidatos de entre 6 posibles (ann, bob, carol, dan, elaine, fred). Genera todos los conjuntos ganadores posibles de tamaño 3.
+
+> Requiere `clingo`, no `swipl`.
+
+```bash
+clingo ejercicios-uag-ryr-del-conocimiento/ejercicio9b.pl
+```
+
 # Prolog Tests
 
 Colección de ejercicios y ejemplos en Prolog.
